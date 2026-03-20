@@ -1,0 +1,17 @@
+[
+  {
+    "name": "AK-12",
+    "in_game_description": "Jack-of-all trades gun with a unique burst-fire mode that increases the weapon's power significantly if you can use it right. Model submitted by Rialag.",
+    "overview": "Weapon Class: Assault Rifle\nRank Required: 0\nDamage dealt on head: 46.2→29.4; On torso: 33→21; On limb: 33→21\nVelocity: 2,950 studs/sec\nRange: 70→160\nMagazine: 30+1\nFire Rate: 700 RPM A & S | 1000 RPM 3x B"
+  },
+  {
+    "name": "VZ.806",
+    "in_game_description": "A Czech modular assault rifle developed from the BREN 805. A high rate of fire and a lightweight design give the BREN 2 somewhat above average recoil, but excellent overall damage output. Model submitted by Mysterious Modeler X.",
+    "overview": "Weapon Class: Assault Rifle\nRank Required: 0\nDamage dealt on head: 43.4→26.6; On torso: 31→19; On limb: 31→19\nVelocity: 2,800 studs/sec\nRange: 65→100\nMagazine: 30+1\nFire Rate: 850 RPM A & S"
+  },
+  {
+    "name": "AN-94",
+    "in_game_description": "A complex Russian assault rifle featuring a unique pulley-driven burst system. Fires two shots in the exact same place before recoil is felt.",
+    "overview": "Weapon Class: Assault Rifle\nRank Required: 10\nDamage dealt on head: 42→32.2; On torso: 30→23; On limb: 30→23\nVelocity: 2,950 studs/sec\nRange: 50→120\nMagazine: 30+1\nFire Rate: 600 RPM Auto & Semi | 1800 RPM 2× Burst"
+  }
+]

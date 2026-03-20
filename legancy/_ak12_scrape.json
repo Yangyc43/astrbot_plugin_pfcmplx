@@ -1,0 +1,9 @@
+[
+  {
+    "name": "AK-12",
+    "in_game_description": "Jack-of-all trades gun with a unique burst-fire mode that increases the weapon's power significantly if you can use it right. Model submitted by Rialag.",
+    "overview": "Weapon Class: 1\nRank Required: 0\nDamage dealt on head: 46.2→29.4; On torso: 33.0→21.0; On limb: 33.0→21.0\nVelocity: 2950 studs/sec\nRange: 70→160\nMagazine: 30+120",
+    "ballistics": "Ballistics Damage 33 → 21 Head Mult. Torso Mult. Limb Mult. 1.40× 46.2 → 29.4 1.0× 33 → 21 1.0× 33 → 21 Range 70 → 160 { backgroundColor : '#000' , grid : { height : '100%' , width : '100%' , containLabel : true , bottom : '0%' , top : '0%' , left : '0' , right : '0' }, tooltip : { trigger : 'axis' , formatter : '(Dist,Dmg): {c}' }, xAxis : { type : 'value' , max : 210 , splitNumber : 4 }, yAxis : { type : 'value' , min : 0 , max : 120 , splitNumber : 4 , alignTicks : true , axisLabel : { show : false } }, series : [{ data : [ [ 0 , 33 ], [ 70 , 33 ], [ 160 , 21 ], [ 210 , 21 ] ], type : 'line' , lineStyle : { width : 3 , color : '#f00' }, itemStyle : { color : '#5f0' }, symbol : 'rect' , symbolSize : 6 , label : { show : true , color : '#fff' , position : 'insideBottomLeft' , formatter : '{c}' }, endLabel : { show : false } }] } Velocity 2,950 studs/sec",
+    "ammunition": "Ammunition Magazine Reserve 30 + 1 120 Ammo Type 5.45x39mm Fire Modes Fire Rate Auto | 3x Burst | Semi 700 RPM A & S | 1000 RPM 3x B The AK-12 is a Russian Assault Rifle available in Phantom Forces. It is unlocked by default."
+  }
+]

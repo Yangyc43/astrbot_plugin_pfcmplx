@@ -1,0 +1,12 @@
+[
+  {
+    "name": "AK-12",
+    "in_game_description": "Jack-of-all trades gun with a unique burst-fire mode that increases the weapon's power significantly if you can use it right. Model submitted by Rialag.",
+    "overview": "Weapon Class: Assault Rifle\nRank Required: 0\nDamage dealt on head: 46.2→29.4; On torso: 33→21; On limb: 33→21\nVelocity: 2950 studs/sec\nRange: 70→160\nMagazine: 30+1\nFire Rate: 700 RPM A & S | 1000 RPM 3x B"
+  },
+  {
+    "name": "M16A4",
+    "in_game_description": "A traditional AR-15 platform assault rifle as used by the US military. This version features a burst-fire trigger group. Very accurate with low recoil and a long range.",
+    "overview": "Weapon Class: Assault Rifle\nRank Required: 22\nDamage dealt on head: 51→33; On torso: 34→22; On limb: 34→22\nVelocity: 3100 studs/sec\nRange: 40→150\nMagazine: 30+1\nFire Rate: 900 RPM"
+  }
+]
