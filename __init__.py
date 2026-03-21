@@ -1,3 +1,5 @@
-from .main import MyPlugin
+# __init__.py
+from .main import pfcmplx
 
-__all__ = ['MyPlugin']
+# 导出插件类
+__all__ = ['pfcmplx']
