@@ -1,0 +1,52 @@
+[
+  {
+    "name": "AK-12",
+    "in_game_description": "Jack-of-all trades gun with a unique burst-fire mode that increases the weapon's power significantly if you can use it right. Model submitted by Rialag.",
+    "overview": "Weapon Class: Assault Rifle\nRank Required: 0\nDamage dealt on head: 46.2→29.4; On torso: 33→21; On limb: 33→21\nVelocity: 2,950 studs/sec\nRange: 70→160\nMagazine: 30+1\nFire Rate: 700 RPM A & S | 1000 RPM 3x B"
+  },
+  {
+    "name": "VZ.806",
+    "in_game_description": "A Czech modular assault rifle developed from the BREN 805. A high rate of fire and a lightweight design give the BREN 2 somewhat above average recoil, but excellent overall damage output. Model submitted by Mysterious Modeler X.",
+    "overview": "Weapon Class: Assault Rifle\nRank Required: 0\nDamage dealt on head: 43.4→26.6; On torso: 31→19; On limb: 31→19\nVelocity: 2,800 studs/sec\nRange: 65→100\nMagazine: 30+1\nFire Rate: 850 RPM A & S"
+  },
+  {
+    "name": "AN-94",
+    "in_game_description": "A complex Russian assault rifle featuring a unique pulley-driven burst system. Fires two shots in the exact same place before recoil is felt.",
+    "overview": "Weapon Class: Assault Rifle\nRank Required: 10\nDamage dealt on head: 42→32.2; On torso: 30→23; On limb: 30→23\nVelocity: 2,950 studs/sec\nRange: 50→120\nMagazine: 30+1\nFire Rate: 600 RPM Auto & Semi | 1800 RPM 2× Burst"
+  },
+  {
+    "name": "AS VAL",
+    "in_game_description": "A tactical upgrade to the SR-3M, with a large suppressor for the purpose of being used by Russian special-ops troops. High damage up close, but lacking damage at range.",
+    "overview": "Weapon Class: Assault Rifle\nRank Required: 15\nDamage dealt on head: 50→36; On torso: 37.5→27; On limb: 25→18\nVelocity: 985 studs/sec\nRange: 60→120\nMagazine: 20, 30 with extended magazine+1\nFire Rate: 800 RPM Auto {{!}} Semi"
+  },
+  {
+    "name": "MK16 SOCOM",
+    "in_game_description": "A modular Belvaunian automatic assault rifle, built specially to satisfy the needs of SOCOM. Steady fire rate with low recoil and high minimum damage. Model submitted by Mysterious Modeler X.",
+    "overview": "Weapon Class: Assault Rifle\nRank Required: 16\nDamage dealt on head: 46.2→35; On torso: 33→25; On limb: 33→25\nVelocity: 2,900 studs/sec\nRange: 60→140\nMagazine: 30+1\nFire Rate: 650 RPM Auto {{!}} Semi"
+  },
+  {
+    "name": "UAR A1",
+    "in_game_description": "An Austrian bullpup assault rifle with a built-in telescopic optic. Decently accurate with a long range and above-average fire rate. Press T and aim to use the scope.",
+    "overview": "Weapon Class: Assault Rifle\nRank Required: 20\nDamage dealt on head: 42→33.6; On torso: 30→24; On limb: 30→24\nVelocity: 3,200 studs/sec\nRange: 65→185\nMagazine: 30+1\nFire Rate: 680 RPM Auto, & Semi"
+  },
+  {
+    "name": "M16A4",
+    "in_game_description": "A traditional AR-15 platform assault rifle as used by the US military. This version features a burst-fire trigger group. Very accurate with low recoil and a long range.",
+    "overview": "Weapon Class: Assault Rifle\nRank Required: 22\nDamage dealt on head: 51→33; On torso: 34→22; On limb: 34→22\nVelocity: 3,100 studs/sec\nRange: 40→150\nMagazine: 30+1\nFire Rate: 900 RPM 3× Burst & Semi"
+  },
+  {
+    "name": "STG-91",
+    "in_game_description": "A modern modular German assault rifle, designed to replace the G3 that was in service at the time. Originally issued with a special optics package. Middle-of-the-road rifle with a preference for ranged performance.",
+    "overview": "Weapon Class: Assault Rifle\nRank Required: 25\nDamage dealt on head: 43.4→32.2; On torso: 31→23; On limb: 31→23\nVelocity: 2,700 studs/sec\nRange: 80→160\nMagazine: 30+1\nFire Rate: 750 RPM Auto, 2x Burst & Semi"
+  },
+  {
+    "name": "M16A1",
+    "in_game_description": "One of the most iconic weapons from the Vietnam era which replaced the M14 battle rifle, known for being light when fully loaded. This rifle uses the early M193 cartridge, meaning its performance differs from modern M855 with poorer penetration and high velocities, but the powder used means recoil and cyclic rate is high.",
+    "overview": "Weapon Class: Assault Rifle\nRank Required: 28\nDamage dealt on head: 42→28; On torso: 30→20; On limb: 30→20\nVelocity: 3,200 studs/sec\nRange: 90→150\nMagazine: 20+1\nFire Rate: 950 RPM Auto {{!}} Semi"
+  },
+  {
+    "name": "M16A3",
+    "in_game_description": "A traditional AR-15 platform assault rifle as used by the US military. This version features a fully automatic trigger group. Accurate with low recoil and a fast reload.",
+    "overview": "Weapon Class: Assault Rifle\nRank Required: 31\nDamage dealt on head: 44.8→30.8; On torso: 32→22; On limb: 32→22\nVelocity: 3,100 studs/sec\nRange: 80→135\nMagazine: 30+1\nFire Rate: 800 RPM A & S"
+  }
+]
