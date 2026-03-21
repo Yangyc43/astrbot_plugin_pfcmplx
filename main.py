@@ -6,6 +6,7 @@ import json
 
 @register("pfcmplx", "Aris", "武器查询插件", "0.1")
 class pfcmplx(Star):
+    # 注意这里：必须有两个参数 context 和 config
     def __init__(self, context: Context, config: AstrBotConfig):
         super().__init__(context)
         self.config = config
