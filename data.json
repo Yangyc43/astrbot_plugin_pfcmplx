@@ -27,6 +27,6 @@
   {
     "name": "M16A4",
     "in_game_description": "A traditional AR-15 platform assault rifle as used by the US military. This version features a burst-fire trigger group. Very accurate with low recoil and a long range.",
-    "overview": "Weapon Class: 1\nRank Required: 22\nDamage dealt on head: 51.0→33.0; On torso: 34.0→22.0; On limb: 34.0→22.0\nVelocity: 3100 studs/sec\nRange: 40→150\nMagazine: 30+120",
+    "overview": "Weapon Class: 1\nRank Required: 22\nDamage dealt on head: 51.0→33.0; On torso: 34.0→22.0; On limb: 34.0→22.0\nVelocity: 3100 studs/sec\nRange: 40→150\nMagazine: 30+120"
   }
 ]
