@@ -1,14 +1,14 @@
-# main.py
 from astrbot.api.event import filter, AstrMessageEvent
 from astrbot.api.star import Context, Star, register
-from astrbot.api import logger
+from astrbot.api import logger, AstrBotConfig
 import os
 import json
 
 @register("pfcmplx", "Aris", "武器查询插件", "0.1")
 class pfcmplx(Star):
-    def __init__(self, context: Context):
+    def __init__(self, context: Context, config: AstrBotConfig):
         super().__init__(context)
+        self.config = config
         # 在初始化时加载数据
         self.load_weapon_data()
     
@@ -35,36 +35,35 @@ class pfcmplx(Star):
                 self.guns = []
     
     @filter.command("request")
-    async def request(self, event: AstrMessageEvent):
-        """输入武器名称以查询数据。"""
+    async def request(self, event: AstrMessageEvent, weapon_name: str = None):
+        """输入武器名称以查询数据。用法：/request 武器名"""
         
-        # 获取用户消息
-        message_str = event.message_str.strip()
-        logger.info(f"📨 收到消息: {message_str}")
+        logger.info(f"📨 收到消息: {event.message_str}")
         
         # 检查数据是否加载成功
         if not self.guns:
             yield event.plain_result("❌ 武器数据库加载失败，请联系管理员")
             return
         
-        # 提取武器名称（命令后的参数）
-        parts = message_str.split()
-        if len(parts) < 2:
+        # 如果没有提供武器名称
+        if weapon_name is None:
             yield event.plain_result(
-                "📖 请提供武器名称，例如：\n"
-                "/request ak12\n"
-                "/request M16A4"
+                "📖 武器查询使用方法：\n"
+                "/request 武器名称\n\n"
+                "例如：/request AK12\n"
+                "      /request M16A4"
             )
             return
         
-        target = parts[1].strip()
-        logger.info(f"🔍 查询武器: {target}")
+        # 去除可能的空格
+        weapon_name = weapon_name.strip()
+        logger.info(f"🔍 查询武器: {weapon_name}")
         
         # 查找武器（支持大小写不敏感）
         found = False
         for gun in self.guns:
             gun_name = gun.get("name", "")
-            if gun_name.lower() == target.lower():
+            if gun_name.lower() == weapon_name.lower():
                 found = True
                 overview = gun.get("overview", "")
                 dsrp = gun.get("in_game_description", "")
@@ -85,7 +84,7 @@ class pfcmplx(Star):
         if not found:
             # 未找到武器，给出友好提示
             yield event.plain_result(
-                f"❌ 未找到武器 \"{target}\"\n\n"
+                f"❌ 未找到武器 \"{weapon_name}\"\n\n"
                 f"💡 请检查：\n"
                 f"1. 武器名称是否正确（如 \"AK12\" 而不是 \"AK-12\"）\n"
                 f"2. 大小写不敏感，但需要完整名称\n"
